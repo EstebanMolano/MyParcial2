@@ -41,6 +41,85 @@ public class MainActivity extends AppCompatActivity {
 
         registrar = findViewById(R.id.btn_registrar);
 
+        spiderman.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ironman.setEnabled(false);
+                capitanAmerica.setEnabled(false);
+                hulk.setEnabled(false);
+                laviudanegra.setEnabled(false);
+                thor.setEnabled(false);
+                doctorStrange.setEnabled(false);
+            }
+        });
+        ironman.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                spiderman.setEnabled(false);
+                capitanAmerica.setEnabled(false);
+                hulk.setEnabled(false);
+                laviudanegra.setEnabled(false);
+                thor.setEnabled(false);
+                doctorStrange.setEnabled(false);
+            }
+        });
+        capitanAmerica.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                spiderman.setEnabled(false);
+                ironman.setEnabled(false);
+                hulk.setEnabled(false);
+                laviudanegra.setEnabled(false);
+                thor.setEnabled(false);
+                doctorStrange.setEnabled(false);
+            }
+        });
+
+        hulk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                spiderman.setEnabled(false);
+                ironman.setEnabled(false);
+                capitanAmerica.setEnabled(false);
+                laviudanegra.setEnabled(false);
+                thor.setEnabled(false);
+                doctorStrange.setEnabled(false);
+            }
+        });
+        laviudanegra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                spiderman.setEnabled(false);
+                ironman.setEnabled(false);
+                capitanAmerica.setEnabled(false);
+                hulk.setEnabled(false);
+                thor.setEnabled(false);
+                doctorStrange.setEnabled(false);
+            }
+        });
+        thor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                spiderman.setEnabled(false);
+                ironman.setEnabled(false);
+                capitanAmerica.setEnabled(false);
+                hulk.setEnabled(false);
+                laviudanegra.setEnabled(false);
+                doctorStrange.setEnabled(false);
+            }
+        });
+        doctorStrange.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                spiderman.setEnabled(false);
+                ironman.setEnabled(false);
+                capitanAmerica.setEnabled(false);
+                hulk.setEnabled(false);
+                laviudanegra.setEnabled(false);
+                thor.setEnabled(false);
+            }
+        });
+
 
         mujeresAdultas.setOnClickListener(new View.OnClickListener() {
             @Override
