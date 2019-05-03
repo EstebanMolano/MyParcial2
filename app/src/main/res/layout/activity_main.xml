@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Por Favor Escoja un solo tipo de publico"
+        android:id="@+id/i_tipo"/>
+
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MujeresAdulta"
+        android:text="Mujeres adultas"
+        android:layout_below="@+id/i_tipo"/>
+
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/HombresAdultos"
+        android:layout_below="@+id/MujeresAdulta"
+        android:text="Hombres Adultos"/>
+
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MuejeresAdolecentes"
+        android:layout_below="@+id/HombresAdultos"
+        android:text="MujeresAdolecesntes"/>
+
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/HombresAdolesentes"
+        android:layout_below="@+id/MuejeresAdolecentes"
+        android:text="Hombres Adolecentes"
+        />
+
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Niños"
+        android:layout_below="@+id/HombresAdolesentes"
+        android:text="Niños"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PorFavor Escojaun solo heroe"
+        android:id="@+id/i_hero"
+        android:layout_below="@+id/Niños"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Spiderman"
+        android:layout_below="@+id/i_hero"
+        android:text="Spiderman"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IronMan"
+        android:layout_below="@+id/Spiderman"
+        android:text="Iron Man"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CapitanAmerica"
+        android:layout_below="@+id/IronMan"
+        android:text="Capitan America"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hulk"
+        android:layout_below="@+id/CapitanAmerica"
+        android:text="Hulk"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LaViudaNegro"
+        android:layout_below="@+id/Hulk"
+        android:text="La Viuda Negra"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Thor"
+        android:layout_below="@+id/LaViudaNegro"
+        android:text="Thor"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DocStrange"
+        android:layout_below="@+id/Thor"
+        android:text="Doctor Strange"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Preferencias"
+        android:id="@+id/btn_registrar"
+        android:layout_below="@+id/DocStrange"/>
+
+
+
+</RelativeLayout>
